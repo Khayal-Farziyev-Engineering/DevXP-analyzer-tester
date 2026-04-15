@@ -1,0 +1,21 @@
+test:
+  java:
+    framework: junit5
+    source: src/test/java
+    report: target/surefire-reports
+  python:
+    framework: pytest
+    source: tests/
+    report: reports/pytest
+  javascript:
+    framework: jest
+    source: src/frontend/__tests__
+    report: coverage/
+  cpp:
+    framework: catch2
+    source: src/cpp/tests
+    report: reports/cpp
+
+coverage:
+  minimum: 70
+  fail_on_miss: true

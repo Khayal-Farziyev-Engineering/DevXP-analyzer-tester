@@ -1,0 +1,19 @@
+{
+  "name": "devxp-analyzer-frontend",
+  "version": "1.0.0",
+  "description": "Frontend stack for DevXP Analyzer",
+  "main": "src/frontend/app.js",
+  "scripts": {
+    "start": "npx serve src/frontend",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/frontend/**/*.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "eslint": "^8.57.0"
+  },
+  "keywords": ["devxp", "analyzer", "frontend"],
+  "license": "MIT"
+}
