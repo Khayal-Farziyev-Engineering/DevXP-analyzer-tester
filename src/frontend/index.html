@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevXP Analyzer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>DevXP Analyzer</h1>
+    <p class="subtitle">Multi-language developer experience analyzer</p>
+  </header>
+
+  <main class="container">
+    <section class="card" id="analyzer-card">
+      <h2>Analyze</h2>
+      <label for="input-text">Input:</label>
+      <textarea id="input-text" rows="4" placeholder="Enter text to analyze..."></textarea>
+      <button id="analyze-btn" class="btn-primary">Analyze</button>
+      <div id="result" class="result" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 DevXP Analyzer. MIT License.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

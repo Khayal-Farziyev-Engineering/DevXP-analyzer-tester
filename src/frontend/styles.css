@@ -1,0 +1,108 @@
+/* DevXP Analyzer — base styles */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  background: #1a73e8;
+  color: #fff;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2rem;
+}
+
+.subtitle {
+  margin-top: 0.25rem;
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+/* Main container */
+.container {
+  flex: 1;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: #1a73e8;
+}
+
+/* Form elements */
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+/* Button */
+.btn-primary {
+  margin-top: 1rem;
+  padding: 0.6rem 1.4rem;
+  background: #1a73e8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background: #1558b0;
+}
+
+/* Result */
+.result {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: #f8f9fa;
+  border-left: 4px solid #1a73e8;
+  border-radius: 4px;
+  min-height: 2rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: #777;
+}
